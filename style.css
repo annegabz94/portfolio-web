@@ -1,0 +1,239 @@
+@font-face{
+  font-family: philosopher;
+  src:url(font/Philosopher/Philosopher-Regular.ttf)
+}
+
+@font-face{
+  font-family: philosopher;
+  src: url(font/Philosopher/Philosopher-Regular.ttf)
+}
+
+@font-face {
+  font-family: Raleway-bold ;
+  src: url(font/Raleway/static/Raleway-Bold.ttf);
+}
+
+@font-face {
+  font-family: Raleway-italic;
+  src: url(font/Raleway/static/Raleway-Italic.ttf);
+}
+
+.name-portfolio, .main-menu{
+  font-family: philosopher;
+}
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border 0px;
+}
+
+.name-portfolio {
+  font-size: 50px;
+  text-align: center;
+  margin: 20px;
+  
+}
+
+.main-menu{
+  margin:10px none;
+  height: 50px;
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+a:hover{
+  color:white;
+}
+
+  
+  background-color:  rgb(250, 172, 98); 
+}
+
+ul{
+  display: flex;
+  list-style-type: none;
+}
+
+li{
+  margin: 10px 22%;
+  
+  
+
+}
+
+.row-one {
+text-align: center;
+margin-top: 50px 
+
+}
+
+.first-image{
+ object-position: 54% 0%;
+ object-fit: cover;
+ height: 400px;
+ width: 400px;
+ margin-right: 10px;
+ border-radius: 5%;
+}
+
+/* .content-one{
+  position: relative;
+} */
+
+
+
+.second-image{
+  object-fit: cover;
+  height: 400px;
+  width: 400px;
+  margin-right: 10px;
+  border-radius: 5%;
+}
+
+.third-image{
+  object-fit: cover;
+  height: 400px;
+  width: 400px;
+  margin-right: 10px;
+  border-radius: 5%;
+}
+
+.fourth-image{
+  object-fit: cover;
+  height: 400px;
+  width: 400px;
+  border-radius: 5%;
+}
+
+
+.row-two{
+ text-align:center;
+ margin-left: 10px;
+ margin-top: 10px;
+}
+
+
+.fifth-image{
+  margin-right: 10px;
+  object-fit: cover;
+  height: 400px;
+  width: 400px;
+  border-radius: 5%;
+  }
+
+.sixth-image{
+  
+  object-fit: cover;
+  height: 400px;
+  width: 400px;
+  margin-right: 10px;
+  border-radius: 5%;
+}
+
+.seventh-image{
+  object-fit: cover;
+  height: 400px;
+  width: 400px;
+  margin-right: 10px;
+  border-radius: 5%;
+}
+
+.video-one{
+  object-fit: cover;
+  height: 400px;
+  width: 400px;
+  margin-right: 10px;
+  border-radius: 5%;
+
+}
+
+.row-three{
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.video-two{
+  object-fit:cover;
+  height:400px;
+  width:400px;
+  margin-right: 10px;
+  border-radius: 5%;
+}
+
+.height-image{
+  object-fit:cover;
+  height:400px;
+  width:400px;
+  margin-right: 10px;
+  border-radius: 5%;
+}
+
+.ninth-image{
+  object-fit:cover;
+  height:400px;
+  width:400px;
+  margin-right: 10px;
+  border-radius: 5%;
+}
+
+.tenth-image{
+  object-position: 20% 0%;
+  object-fit:cover;
+  height:400px;
+  width:400px;
+  margin-right: 10px;
+  border-radius: 5%;
+ 
+}
+
+
+
+.row-four{
+  text-align: center;
+  margin-top: 10px 
+}
+.eleventh-image{
+  
+  object-fit:cover;
+  height:400px;
+  width:400px;
+  margin-right: 10px;
+  border-radius: 5%;
+
+}
+
+ img:hover{
+ filter: brightness(70%);  
+
+
+
+/* filter: blur(1px);*/
+ 
+}
+
+video:hover{
+  filter: brightness(70%); 
+}
+
+body{
+  background-color: rgb(255, 255, 255);
+}
+
+footer{
+  height: 150px;
+  background-color: rgb(250, 172, 98);
+  margin-top: 30px;
+  /* border-radius: 2% 2% 0%  0%; */
+}
+
+ .copyright{
+text-align: center;
+padding-top: 120px ;
+font-family: Raleway-bold;
+  color: grey;
+}

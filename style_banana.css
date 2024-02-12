@@ -1,0 +1,261 @@
+@font-face{
+  font-family: raleway;
+ src:url(font/Raleway/static/Raleway-Light.ttf);
+}
+
+@font-face{
+  font-family: philosopher;
+  src: url(font/Philosopher/Philosopher-Regular.ttf)
+}
+
+@font-face {
+  font-family: Raleway-bold ;
+  src: url(font/Raleway/static/Raleway-Bold.ttf);
+}
+
+@font-face {
+  font-family: Raleway-italic;
+  src: url(font/Raleway/static/Raleway-Italic.ttf);
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border 0px;
+}
+.name-portfolio, .main-menu{
+  font-family: philosopher;
+}
+
+.name-portfolio{
+  font-size: 50px;
+  text-align: center;
+  height: 20px ;
+}
+
+.main-menu{
+  margin:10px none;
+  height: 100px;
+  
+  background-color:  rgb(250, 172, 98); 
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+a:hover{
+  color:white;
+}
+
+ul{
+  display: flex;
+  list-style-type: none;
+}
+
+li{
+  margin: 10px 22%;
+  
+}
+
+.arrow-right{
+  height: 20px;
+  float: right;
+  margin-right: 350px;
+  margin-top: 70px;
+ 
+}
+
+.arrow-left{
+  height: 20px;
+  float: left;
+  margin-left: 350px;
+  margin-top: 70px;
+  transform: scaleX(-1);
+}
+.software , .info-en, .art-title, .year{
+  font-family: raleway;
+}
+
+.art-title{
+  font-family:Raleway-italic ;
+  font-size: 20px;
+  font-style: bold;
+ 
+ 
+  
+}
+
+.year{
+  font-family: Raleway-italic ;
+  font-style: bold;
+}
+
+.info-en{
+  font-family: raleway;
+} 
+
+
+
+
+.name-portfolio{
+    font-size: 50px;
+    text-align: center;
+    height: 20px ;
+    padding-top: 20px;
+}
+
+.main-menu{
+    margin:10px none;
+    height: 50px;
+    margin-top: 56px;
+    background-color:  rgb(250, 172, 98); 
+  }
+  
+  ul{
+    display: flex;
+    list-style-type: none;
+  }
+  
+  li{
+    margin: 10px 22%;
+    
+    
+  
+  }
+
+
+  .art-title{
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .year{
+    text-align: center;
+  }
+
+  .info-en{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    
+  }
+ 
+
+  .software{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .hightlight-software{
+   font-weight: bold; 
+  }
+
+  .image-first{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 2%;
+    
+  }
+
+  .image-second{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-radius: 2%;
+    }
+
+   .image-third{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-radius: 2%;
+   }
+
+   .image-fourth{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-radius: 2%;
+   }
+
+   .image-fifth{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-radius: 2%;
+   }
+
+   .image-sixth{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-radius: 2%;
+   }
+
+   .image-seventh{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-radius: 2%;
+   }
+
+   .image-height{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-radius: 2%;
+   }
+
+   .image-ninth{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-radius: 2%;
+   }
+
+   .video-banana{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 40px;
+    border-radius: 2%;
+    
+   }
+
+   footer{
+    height: 150px;
+    background-color: rgb(250, 172, 98);
+    margin-top: 30px;
+    /* border-radius: 2% 2% 0%  0%; */
+  }
+
+.copyright{
+  text-align: center;
+  padding-top: 120px;
+  font-family: Raleway-bold;
+  color: grey;
+  
+}
